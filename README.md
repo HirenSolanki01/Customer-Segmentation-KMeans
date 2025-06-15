@@ -1,17 +1,22 @@
-# Customer Segmentation using K-means
+# Customer Segmentation using K-Means
 
-This project applies K-means clustering on mall customer data to identify customer groups based on Age, Annual Income, and Spending Score.
+This project applies the K-Means clustering algorithm to segment retail customers based on age, annual income, and spending score.
 
 ## Dataset
-- Source: [Kaggle Dataset](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
+- Mall_Customers.csv from Kaggle
+- [Link](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
 
-## Libraries
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
+## Features Used
+- Age
+- Annual Income
+- Spending Score
 
-## How to run
-```bash
-python kmeans_clustering.py
+## Techniques Used
+- Data Preprocessing
+- Standardization
+- Elbow Method
+- K-Means Clustering
+- Data Visualization
+
+## Output
+Visual clusters representing different customer segments.
