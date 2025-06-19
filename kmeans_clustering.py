@@ -39,5 +39,6 @@ sns.scatterplot(
     x='Annual Income (k$)', y='Spending Score (1-100)',
     hue='Cluster', palette='Set1', data=df, s=100
 )
+
 plt.title('Customer Segments')
 plt.show()
